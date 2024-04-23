@@ -1,0 +1,7 @@
+[tool_requires]
+ninja/1.11.1
+cmake/3.28.1
+
+[conf]
+tools.env.virtualenv:powershell=False
+tools.cmake.cmaketoolchain:generator=Ninja Multi-Config

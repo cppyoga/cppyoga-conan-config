@@ -1,0 +1,8 @@
+include(cppyoga/cppyoga_tools_base)
+include(profiles/cppyoga/cppyoga_tools_base)
+
+[settings]
+os=Android
+compiler=clang
+compiler.libcxx=c++_static
+compiler.cppstd=20

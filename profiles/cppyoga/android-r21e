@@ -1,0 +1,15 @@
+include(cppyoga/cppyoga_tools_base)
+include(profiles/cppyoga/cppyoga_tools_base)
+
+[settings]
+build_type=Release
+arch=armv8
+os=Android
+os.api_level=29
+compiler=clang
+compiler.version=9
+compiler.libcxx=c++_static
+compiler.cppstd=17
+
+[tool_requires]
+android-ndk/r21e
