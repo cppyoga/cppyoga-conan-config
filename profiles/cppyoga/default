@@ -1,0 +1,6 @@
+include(cppyoga/cppyoga_conf_base)
+include(cppyoga/cppyoga_tools_base)
+include(default)
+
+[settings]
+compiler.cppstd=20
